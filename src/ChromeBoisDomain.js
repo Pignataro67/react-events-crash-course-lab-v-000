@@ -22,7 +22,7 @@ export default class ChromeBoisDomain extends Component {
      toggleCycling();
    }
 
-    handleKeyClick = () => {
+    handleKeyClick = (event) => {
 
       if(event.key === "s"){
        resize('-')
