@@ -18,17 +18,17 @@ export default class ChromeBoisDomain extends Component {
    * listener that should fire it!
    */
    
-    handleMouseClick = (event) => {
+    handleMouseClick = () => {
      toggleCycling();
    }
 
-    handleKeyClick = (event) => {
+    handleKeyClick = () => {
 
       if(event.key === "s"){
-       resize('-')
+       resize('-');
      }
      if(event.key === "a"){
-       resize('+')
+       resize('+');
      }
 
     }
